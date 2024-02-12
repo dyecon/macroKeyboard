@@ -40,4 +40,14 @@ You can download Thonny from https://thonny.org.
 ## Step 5. Coding
 1. Copy the **code\.py** file in this repository to the root directory of your Raspberry Pi. 
 
- 
+Now we will edit the code to make it work.
+
+2. On lines 11 to 15, change the pin names to the ones you are using.
+3. On line 41, change the PWM duty cycle to control the LED brightness.
+4. On lines 44 to 64, change `Keycode.W` etc. to the keys you want. A list of available keycodes can be found in  **keycodes.txt** in this repository.
+5. Save the script and test your keyboard!
+
+---
+
+## Step 6. Take it a step further
+The code provided here are simple examples, but you can modify it to add or improve features. For example, you could light the LED only when a key is pressed. Be creative and have fun!
